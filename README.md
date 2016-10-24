@@ -1,12 +1,12 @@
 # parkourgame
-a web Parkour Game user createJS  /  使用createJS编写的一款网页跑酷游戏
+a web parkour game base on createJS
 
-游戏展示：[www.bqtalk.com](www.bqtalk.com) 
+game show：[www.bqtalk.com](www.bqtalk.com) 
 
-截图展示：
+sreenshoot：
 ![](http://ofjgt9lwa.bkt.clouddn.com/2.png)
 ![](http://ofjgt9lwa.bkt.clouddn.com/3.png)
 ![](http://ofjgt9lwa.bkt.clouddn.com/4.png)
 ![](http://ofjgt9lwa.bkt.clouddn.com/5.png)
 
-个人博客：[https://my.oschina.net/gdxz111/blog](https://my.oschina.net/gdxz111/blog) 
+author blog：[https://my.oschina.net/gdxz111/blog](https://my.oschina.net/gdxz111/blog) 
