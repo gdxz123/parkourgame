@@ -8,3 +8,5 @@ a web Parkour Game user createJS  /  使用createJS编写的一款网页跑酷�
 ![](http://ofjgt9lwa.bkt.clouddn.com/3.png)
 ![](http://ofjgt9lwa.bkt.clouddn.com/4.png)
 ![](http://ofjgt9lwa.bkt.clouddn.com/5.png)
+
+个人博客：[https://my.oschina.net/gdxz111/blog](https://my.oschina.net/gdxz111/blog) 
