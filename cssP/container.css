@@ -1,0 +1,194 @@
+#container{
+
+}
+/*内容*/
+#content{
+	width:100%;
+}
+/*产品介绍样式*/
+#productDes{
+	height:665px;
+	width:100%;
+	min-width:960px;
+	background:#1e7eef;
+}
+#product{
+	width:960px;
+	margin:0 auto;
+	height:500px;		
+}
+#productLeft{
+	float:left;
+	padding-top:65px;
+	height:500px;
+	width:300px;
+	position:relative;
+}
+#productRight{
+	width:500px;
+	height:300px;
+	padding-top:100px;
+	color:#fff;
+	margin-left:120px;
+	float: left;
+	position:relative;
+}
+#h21{
+	font-size: 30px;
+	font-weight:normal;
+	padding-left:20px;
+}
+#ul1 {
+	font-size: 18px;
+	padding-top: 5px;
+}
+.btn{
+	display: block;
+	height:41px;
+	width:130px;
+	margin-left:20px;
+	float:left;
+}
+#btn1{
+	background:url("../imgPhone/bt_android.png") no-repeat;
+}
+#btn2{
+	background:url("../imgPhone/bt_iOS.png") no-repeat;
+}
+/*弹幕样式*/
+#layerDown{
+	height:120px;
+	margin-top:45px;
+	background:#fff;
+	opacity:0.15;
+}
+#commentpopA,#commentpopB{
+	color:#fff;
+	font-size: 20px;
+	float:right;
+	padding:10px;
+	display:block;
+	position:absolute;
+	opacity:0;
+	transition-property: opacity; 
+	transition-timing-function: linear;
+	-moz-transition-property: opacity; 
+	-moz-transition-timing-function: linear;
+	-webkit-transition-property: opacity; 
+	-webkit-transition-timing-function: linear;
+	-o-transition-property: opacity; 
+	-o-transition-timing-function: linear;
+}
+#commentpopA{
+	top:630px;
+	transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	-webkit-transition-duration: 1s;
+	-o-transition-duration: 1s;
+}
+#commentpopB{
+	top:670px;
+	transition-duration: 0.5s;
+	-moz-transition-duration: 0.5s;
+	-webkit-transition-duration: 0.5s;
+	-o-transition-duration: 0.5s;
+}
+/*公司介绍样式*/
+#companyDes{
+	height:600px;
+	width:100%;
+	min-width:960px;
+	background:#ffd505;
+}
+#company{
+	height:600px;
+	width:960px;
+	margin:0 auto;
+	overflow: hidden;
+}
+#introduction{
+	border-radius: 20px;
+	background: #fff;
+	width:550px;
+	height:250px;
+	padding:40px 30px;
+	margin-left:60px;
+	margin-top:65px;
+	color:#000;
+	opacity:0.7;
+}
+#introductionTitle{
+	font-size:30px;
+	font-weight: bolder;
+}
+.introductionContent{
+	margin-top:15px;
+	font-size:18px;
+	padding-left:30px;
+}
+/*海盗*/
+#pirateDiv{
+	position:relative;
+	float:right;
+	right:50px;
+	top:-131px;
+}
+/*招聘样式*/
+#employDiv{
+	width:100%;
+	height:690px;
+	background:#37c9ab;
+	min-width:960px;
+}
+#employ{
+	width:960px;
+	height:690px;
+	margin:0 auto;
+}
+#employLeft{
+	width:200px;
+	float:left;
+	margin-top:60px;
+	margin-left:100px;
+}
+/*职位列表*/
+#jobsList{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	margin-top:40px;
+	text-align: center;
+	font-size: 18px;
+	color:#fff;
+}
+.item{
+	margin-top:90px;
+}
+#employRight{
+	width:500px;
+	float:right;
+	margin-right:120px;
+	margin-top:65px;
+}
+.etext{
+	padding:3px 40px;
+	font-size: 17px;
+}
+.employjob{
+	background:#fff;
+	border-radius:10px;
+	opacity:0.6;
+	padding:20px 0;
+}
+#employDesign{
+	margin-top:30px;
+}
+#emailDiv{
+	text-align: center;
+	margin-top:18px;
+}
+#emailText{
+	color:#fff;
+	font-size: 20px;
+	border-bottom: 1px solid #ccc;
+}

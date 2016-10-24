@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>关于脸萌</title>
+<meta content="脸萌,MYO,MYOTee,MYOTee脸萌,MYOTee脸萌官网,faceQ,脸萌手机下载,脸萌是什么,myobe脸萌,脸萌app,myo脸萌,my0脸萌,脸萌魔兽玩家" name="keywords">
+<meta name="description" content="你的卖萌神器">
+<link rel="stylesheet" href="cssP/com.css">
+<style>
+#container{
+	background:url(imgPhone/aboutus/bg.png);
+}
+#header{
+	box-shadow: 0 20px 100px #d2d2d0;
+}
+#content{
+	width:960px;
+	margin:0 auto;
+	margin-bottom: 100px;
+}
+/*时间轴样式*/
+#timelineDiv{
+	margin-top:50px;
+	margin-left:56px;
+}
+.yearTitle{
+	font-size:25px;
+	color:#a1a3a4;
+}
+.timelineList{
+	border-left:5px solid #fff;
+	list-style: none;
+	margin:0;
+	margin-left:29px;
+	padding:0;
+}
+
+.timelineList li{
+	margin-left:50px;
+	margin-top:50px;
+}
+.timelineList li:first-child{
+	margin-top:0;
+}
+/*月份样式*/
+.tlMoon{
+	text-align: center;
+	line-height: 40px;
+	color:#fff;
+	width:40px;
+	height:40px;
+	border-radius: 20px;
+	position:relative;
+	top:15px;
+	right:75px;
+	font-size: 30px;
+	float: left;
+}
+.tlType1 .tlMoon{
+	background:#bd8c58;
+}
+.tlType2 .tlMoon{
+	background:#e55d7d;
+}
+.tlType3 .tlMoon{
+	background:#37c9ab;
+}
+/*气泡框样式*/
+.tlDiv{
+	background:#fff;
+	border-radius: 20px;
+	width:680px;
+	height:180px;
+	position:relative;
+}
+.tlDiv:before{
+	content:url(imgPhone/aboutus/horn.png);
+	float: left;
+	position: absolute;
+	left:-20px;
+	top:20px;
+}
+.tlType1 .tlDiv:after{
+	content:url(imgPhone/aboutus/border1.png);
+	background-position:-10px -50px;
+}
+.tlType2 .tlDiv:after{
+	content:url(imgPhone/aboutus/border2.png);
+}
+.tlType3 .tlDiv:after{
+	content:url(imgPhone/aboutus/border3.png);
+}
+
+/*消息标题*/
+.tlTitle{
+	font-size: 20px;
+	font-weight: bolder;
+	position: relative;
+	left:5px;
+	top:8px;
+}
+.tlType1 .tlTitle{
+	color:#bd8c58;
+}
+.tlType2 .tlTitle{
+	color:#e55d7d;
+}
+.tlType3 .tlTitle{
+	color:#37c9ab;
+}
+/*消息内容*/
+.tlContent{
+	font-size: 16px;
+	line-height:25px;
+	padding-top:20px;
+	margin-left:10px;
+	width:400px;
+	height:120px;
+	float:left;
+}
+/*消息图片*/
+.tlPic{
+	width:180px;
+	height:120px;
+	float:right;
+
+}
+.tlPic img{
+	height:100%;
+}
+
+/*未来*/
+#timelineListFuture{
+	border-left:5px  dotted #fff;
+}
+#futureDiv{
+	height:170px;
+}
+.tlType4 .tlMoon{
+	background:#94c023;
+}
+.tlContentFuture{
+	color:#94c023;
+	font-size: 25px;
+	line-height: 50px;
+	text-align: center;
+}
+.tlContentFuture:first-child{
+	padding-top:35px;
+	padding-right:55px;
+}
+.tlType4 .tlDiv:after{
+	content:url(imgPhone/aboutus/border4.png);
+}
+</style>
+</head>
+<body>
+<div id="container">
+	<div id="header">
+		<div id="top">
+			<div id="topleft">
+				<img src="imgPhone/logo.png">
+			</div>
+			<div id="topright">
+				<ul id="buttonList">
+					<li id="homePageButton"><a href="./indexP.html">首页</a></li>
+					<li id="aboutUsButton"><a href="./aboutP.html">关于我们</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div id="content">
+		<div id="timelineDiv">
+			<div id="timeline2013">
+				<div id="year2013" class="yearTitle">2013</div>
+				<ul id="timelineList2013" class="timelineList">
+					<li>
+						<div class="tlType1">
+							<div class="tlMoon">5</div>
+							<div class="tlDiv">
+								<div class="tlTitle">MT团队成立</div>
+								<div class="tlContent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;创始人在茫茫人海中相遇，经过一番交谈，感觉大伙志同道合，一见钟情，所以决定Do something different。</div>
+								<div class="tlPic"><img src="imgPhone/aboutus/mtTeam.png" title="MT团队成立" alt="MT团队成立"/></div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="tlType2">
+							<div class="tlMoon">11</div>
+							<div class="tlDiv">
+								<div class="tlTitle">脸萌1.0上线</div>
+								<div class="tlContent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;经过三个月的激情时光，大伙克服了许多困难，脸萌1.0终于诞生啦！</div>
+								<div class="tlPic"><img src="imgPhone/aboutus/myoApp.png" title="MYO脸萌1.0上线" alt="MYO脸萌1.0上线"/></div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			
+			<div id="timeline2014">
+				<div id="year2014" class="yearTitle">2014</div>
+				<ul id="timelineList2014" class="timelineList">
+					<li>
+						<div class="tlType3">
+							<div class="tlMoon">3</div>
+							<div class="tlDiv">
+								<div class="tlTitle">获天使轮投资</div>
+								<div class="tlContent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;很快就获得了IDG数百万天使轮投资。</div>
+								<div class="tlPic"><img src="imgPhone/aboutus/idgLogo.png" title="获天使轮投资" alt="获天使轮投资"/></div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="tlType1">
+							<div class="tlMoon">6</div>
+							<div class="tlDiv">
+								<div class="tlTitle">MYO脸萌登顶</div>
+								<div class="tlContent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在火爆爆的时候，日下载最高达500万，连续两周在APP Store总榜排行第一。</div>
+								<div class="tlPic"><img src="imgPhone/aboutus/no1.png" title="MYO脸萌登顶" alt="MYO脸萌登顶"/></div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="tlType2">
+							<div class="tlMoon">7</div>
+							<div class="tlDiv">
+								<div class="tlTitle">获A轮投资</div>
+								<div class="tlContent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一不小心获得了顶级投资机构数千万A轮投资。</div>
+								<div class="tlPic"><img src="imgPhone/aboutus/pigA.png" title="获A轮投资" alt="获A轮投资"/></div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="tlType3">
+							<div class="tlMoon">8</div>
+							<div class="tlDiv">
+								<div class="tlTitle">脸萌国际版上线</div>
+								<div class="tlContent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FaceQ上线后，很快占领17个国家总榜第一，50多个国家娱乐榜第一，多国排行榜给中国本土软件承包啦！</div>
+								<div class="tlPic"><img src="imgPhone/aboutus/paihang.png" title="脸萌国际版上线" alt="脸萌国际版上线"/></div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+
+			<div id="timelineFuture">
+				<div id="yearFuture" class="yearTitle">未来</div>
+				<ul id="timelineListFuture" class="timelineList">
+					<li>
+						<div class="tlType4">
+							<div class="tlMoon">?</div>
+							<div class="tlDiv">
+								<div id="futureDiv">
+									<div class="tlContentFuture">更多产品，尽在未来！</div>
+									<div class="tlContentFuture">期待你的加入，一起填充精彩。</div>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div id="footer">
+		<div class="campanyDes">© 2014 脸萌科技有限公司 <a id="recordNumber" href="http://www.miitbeian.gov.cn" target="blank">粤ICP备13065114号</a> ლ(・ω・ლ)</div>
+	</div>
+</div>
+</body>
+</html>

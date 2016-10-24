@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<title>脸萌官网 ლ(・ω・ლ)</title>
+<meta content="脸萌,MYO,MYOTee,MYOTee脸萌,MYOTee脸萌官网,faceQ,脸萌手机下载,脸萌是什么,myobe脸萌,脸萌app,myo脸萌,my0脸萌,脸萌魔兽玩家" name="keywords">
+<meta name="description" content="你的卖萌神器">
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
+<style>
+	html,body{
+		padding:0;
+		margin:0;
+		font-family: "Myriad Set Pro","Lucida Grande","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif";
+		font-size:12px;
+		font-weight:normal;
+	}
+	#container{
+		/*border:1px solid red;*/
+	}
+	#gameDiv{
+		/*border:1px solid blue;*/
+	}
+	/*加载时背景颜色*/
+	#gameDiv .loading{
+		background: #fefefe;
+	}
+	/*开头剧情的背景颜色*/
+	#gameDiv .beginStory{
+		background: #fefefe;
+	}
+	/*游戏开始后的背景颜色*/
+	#gameDiv .gameStart{
+		background: #00b6f0;
+	}
+	/*胜利剧情的背景颜色*/
+	#gameDiv .endStory{
+		background: #fefefe;
+	}
+	/*页脚样式*/
+	#footDiv{
+		background:#0a70b1;
+		width:100%;
+		height:35px;
+		position:absolute;
+	}
+	#footContent{
+		color:#fff;
+		font-family: "Myriad Set Pro","Lucida Grande","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif";
+		font-size:16px;
+		text-align: center;
+		margin-top:10px;
+	}
+	/*联系我们样式*/
+	#connectDiv{
+		background:#c9c9c9;
+		width:100%;
+		height:40px;
+		position:absolute;
+		overflow: hidden;
+	}
+	#feedbackDiv{
+		/*border:1px solid red;*/
+		float:left;
+		margin-top: 5px;
+		font-family: "微软雅黑";
+	}
+	#fcTitle {
+		border:1px solid #b6b6b6;
+		background: #fff;
+		color:#777;
+		float:left;
+		width:112px;
+		height:30px;
+		font-size: 17px;
+		line-height: 30px;
+		text-align: center;
+		font-weight: bold;
+		margin-left: 2px;
+		box-shadow:-2px 2px 3px #aaa;
+	}
+	#fcContentDiv {
+		margin:1px 0 0 8px;
+		float:left;
+	}
+	#fcContentDiv input{
+		height:23px;
+		font-size: 16px;
+		line-height: 23px;
+		border-radius: 4px;
+		font-family: "微软雅黑";
+		/*text-align: center;*/
+		font-weight: bold;
+		color:#777;
+	}
+	#fcButton{
+		float:left;
+		width:92px;
+		height:28px;
+		font-size: 17px;
+		line-height: 26px;
+		margin: 2px 0 0 5px;
+		text-align: center;
+		background:#00b6f0;
+		text-align: center;
+		color:#fff;
+		font-weight: bold;
+		cursor: pointer;
+		box-shadow:-2px 2px 3px #aaa;
+	}
+	#fcButton:hover{
+		color:#eee;
+	}
+	#fcMail{
+		float:left;
+		margin-left:8px;
+		font-size: 17px;
+		line-height: 29px;
+		width:240px;
+		height:30px;
+		text-align: center;
+		background:#fff;
+		box-shadow:-2px 2px 3px #aaa;
+		font-weight: bold;
+	}
+	.orMail{
+		display: inline-block;
+		color:#777;
+	}
+	.hrMail{
+		display: inline-block;
+		color:#ff8498;
+	}
+</style>
+</head>
+<body oncontextmenu="return false">
+<div id="container">
+	<div id="gameDiv">
+		<canvas id="gameCanvas"></canvas>
+	</div>
+	<div id="footDiv">
+		<div id="footContent">© 2014 脸萌科技有限公司 粤ICP备13065114号</div>
+	</div>
+
+	<div id="connectDiv">
+		<div id="feedbackDiv">
+			<div id="fcTitle">联系方式:</div>
+			<div id="fcContentDiv">
+				<input id="feedbackContent" type="text" placeholder="   有什么想跟脸萌说的吗？">
+			</div>
+			<div id="fcButton">发 送</div>
+			<div id="fcMail"><div class="orMail">或者邮箱:</div><div class="hrMail">hr@bqtalk.com</div></div>
+		</div>
+	</div>
+</div>
+
+<script src="js/game.min.js"></script>
+</body>
+</html>
