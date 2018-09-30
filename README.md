@@ -2,7 +2,6 @@
 
 ### Description
 a web parkour game base on createJS
-
 game show：[www.bqtalk.com](www.bqtalk.com) 
 
 ### sreenshoot：
