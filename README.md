@@ -6,7 +6,7 @@ a web parkour game base on createJS
 game show：[www.bqtalk.com](www.bqtalk.com) 
 
 ### sreenshoot：
-![](http://ofjgt9lwa.bkt.clouddn.com/2.png)
+[//]: ![](http://ofjgt9lwa.bkt.clouddn.com/2.png)
 ![](http://ofjgt9lwa.bkt.clouddn.com/3.png)
 ![](http://ofjgt9lwa.bkt.clouddn.com/4.png)
 ![](http://ofjgt9lwa.bkt.clouddn.com/5.png)
