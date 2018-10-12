@@ -1,4 +1,4 @@
-# parkourgame
+# Parkourgame
 
 ### Description
 a web parkour game base on createJS
