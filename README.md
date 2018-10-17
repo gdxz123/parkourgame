@@ -13,6 +13,7 @@ game show：[https://www.51ihere.com/parkourgame/parkour.html](https://www.51ihe
 ### Author 
 - gdxz123
 blog：[https://my.oschina.net/gdxz111/blog](https://my.oschina.net/gdxz111/blog) 
+Game designer & Technical realization & Operate promotion. 
 
 ### License
 parkourgame is available under the MIT license. See the LICENSE file for more info.
