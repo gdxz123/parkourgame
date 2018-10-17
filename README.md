@@ -2,6 +2,7 @@
 
 ### Description
 a web parkour game base on createJS
+
 game show：[https://www.51ihere.com/parkourgame/parkour.html](https://www.51ihere.com/parkourgame/parkour.html) 
 
 ### Sreenshoot：
@@ -12,7 +13,9 @@ game show：[https://www.51ihere.com/parkourgame/parkour.html](https://www.51ihe
 
 ### Author 
 - gdxz123
+
 blog：[https://my.oschina.net/gdxz111/blog](https://my.oschina.net/gdxz111/blog) 
+
 Game designer & Technical realization & Operate promotion. 
 
 ### License
