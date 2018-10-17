@@ -2,7 +2,7 @@
 
 ### Description
 a web parkour game base on createJS
-game show：[www.bqtalk.com](www.bqtalk.com) 
+game show：[https://www.51ihere.com/parkourgame/parkour.html](https://www.51ihere.com/parkourgame/parkour.html) 
 
 ### Sreenshoot：
 [//]: ![](http://ofjgt9lwa.bkt.clouddn.com/2.png)
